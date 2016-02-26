@@ -52,13 +52,13 @@
 			          </li>
 
 			        <li class="dropdown">
-				        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ensenyament  <b class="caret"></b></a>
+				        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url(''); ?>">Ensenyament  <b class="caret"></b></a>
 
 			            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-	                    	<li><a href="#">Llengües extrangeres</a></li>
+	                    	<li><a href="<?php echo base_url(''); ?>">Llengües extrangeres</a></li>
 	                    	<li class="menu-item dropdown dropdown-submenu">
 
-			 					<a href="#" class="dropdown-toggle" data-toggle="dropdown-menu" href="#">Proves d'Accés</a>
+			 					<a href="#" class="dropdown-toggle" data-toggle="dropdown-menu" href="<?php echo base_url(''); ?>">Proves d'Accés</a>
 								<ul class="dropdown-menu">
 									<li><a target="_blank" href="http://ensenyament.gencat.cat/ca/inici/">Normativa de les proves de Grau mitjà</a></li>
 									<li><a target="_blank" href="http://ensenyament.gencat.cat/ca/inici/">Normativa de les proves de Grau Superior</a></li>
@@ -74,18 +74,18 @@
 	                	</ul>
 	                </li>
 			        <li><a href="#">Secretaria</a></li>
-			        <li><a href="<?php echo base_url('teacher'); ?>">Professorat</a></li>
+			        <li><a href="<?php echo base_url('index.php/home/teacher'); ?>">Professorat</a></li>
 
 			        <li class="dropdown">
 			        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Horaris <b class="caret"></b></a>
 			        	<ul class="dropdown-menu">
-			        		<li><a target="_blank" href="files/HORARIS ENSENYAMENTS INICIALS 15-16.pdf">Informàtica, català i àngles</a></li>
-			        		<li><a target="_blank" href="files/PACCES_15-16.pdf">Proves d'accés</a></li>
-			        		<li><a target="_blank" href="files/GES_horaris_anual_15-16.pdf">GES</a></li>
+			        		<li><a target="_blank" href="<?php echo base_url('assets/files/HORARIS ENSENYAMENTS INICIALS 15-16.pdf'); ?>">Informàtica, català i àngles</a></li>
+			        		<li><a target="_blank" href="<?php echo base_url('assets/files/PACCES_15-16.pdf'); ?>">Proves d'accés</a></li>
+			        		<li><a target="_blank" href="<?php echo base_url('assets/files/GES_horaris_anual_15-16.pdf'); ?>">GES</a></li>
 			        	</ul>
 			        </li>
 
-			        <li><a href="<?php echo base_url('#contact'); ?>">Contacte</a></li>
+			        <li><a href="<?php echo base_url('index.php/home/contact'); ?>">Contacte</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			    <!-- start soc_icons -->
