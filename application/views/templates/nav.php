@@ -5,9 +5,10 @@
 			<div class="logo navbar-left">
 				<h1><a href="index.html">CFA - Tortosa </a></h1>
 			</div>
+
 			<div class="h_search navbar-right">
 				<form>
-					<input type="text" class="text" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
+					<input type="text" class="text" value="644 43 68 30" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}">
 					<input type="submit" value="buscar">
 				</form>
 			</div>
@@ -62,7 +63,7 @@
 								<ul class="dropdown-menu">
 									<li><a target="_blank" href="http://ensenyament.gencat.cat/ca/inici/">Normativa de les proves de Grau mitjà</a></li>
 									<li><a target="_blank" href="http://ensenyament.gencat.cat/ca/inici/">Normativa de les proves de Grau Superior</a></li>
-									<li><a target="_blank" href="http://www.gencat.cat/diue/ambits/ur/universitats/acces/vies/25a/index.html">Normativa de les proves de PAU + 25 i PAU + 45</a></li>
+									<li><a target="_blank" href="http://universitatsirecerca.gencat.cat/ca/03_ambits_dactuacio/acces_i_admissio_a_la_universitat/proves_dacces_per_a_mes_grans_de_25_anys/">Normativa de les proves de PAU + 25 i PAU + 45</a></li>
 									<div class="divider"></div>
 									<li><a target="_blank" href="http://www.ceice.gva.es/eva/val/fp/pruacc.htm">Inscripció de les prova d'accés a Grau Mitjà a la Comunitat Valenciana</a></li>
 									<li><a target="_blank" href="http://www.ceice.gva.es/eva/val/fp/pruacc.htm">Inscripció de les prova d'accés a Grau Superior a la Comunitat Valenciana</a></li>
@@ -85,7 +86,7 @@
 			        	</ul>
 			        </li>
 
-			        <li><a href="<?php echo base_url('index.php/home/contact'); ?>">Contacte</a></li>
+			        <li><a href="<?php echo base_url('index.php/home/form_contact'); ?>">Contacte</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			    <!-- start soc_icons -->
@@ -93,9 +94,9 @@
 
 			<div class="soc_icons navbar-right">
 				<ul class="list-unstyled text-center">
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://www.facebook.com/cfa.tortosa"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="https://mail.google.com/"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#" title="644 43 68 30"><i class="fa fa-whatsapp"></i></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/cfa.tortosa"><i class="fa fa-facebook"></i></a></li>
+					<li><a target="_blank" href="https://mail.google.com/"><i class="fa fa-google"></i></a></li>
 				</ul>
 			</div>
 		</div>

@@ -74,7 +74,7 @@
           </li>
           
           <li class="list-group-item">
-            <a target="_blank" href="http://www.iesebre.com/moodle">
+            <a target="_blank" href="http://agora.xtec.cat/afatortosa/moodle">
               <img src="<?php echo base_url('assets/images/moodle.png'); ?>" height="40px">
             </a>
           </li>

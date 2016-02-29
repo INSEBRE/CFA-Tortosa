@@ -9,31 +9,44 @@
 						<p>43500 Tortosa, Tarragona</p>
 				   		<p>Tel: (34) 977588995</p>
 				 	 	<p>Email: <a href="mailto:e3009771@xtec.cat">e3009771@xtec.cat</a></p>
-				   		<p>Seguir-nos a: <a href="#">Facebook</a>, <a href="#">Twitter</a></p>
+				   		<p>Seguir-nos a: <a href="https://www.facebook.com/cfa.tortosa">Facebook</a></p>
 				   	</address>
 				</div>
+
 				<div class="col-md-8">
-				  <div class="contact-form">
-				  	<h2>Contacta'ns</h2>
-					    <form>
-					    	<div>
-						    	<span>Nom</span>
-						    	<span><input type="username" class="form-control" id="userName"></span>
-						    </div>
-						    <div>
-						    	<span>Correu</span>
-						    	<span><input type="email" class="form-control" id="inputEmail3"></span>
-						    </div>
-						    <div>
-						    	<span>Assumpte</span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<label class="fa-btn btn-1 btn-1e"><input type="submit" value="Enviar"></label>
-						  </div>
-					    </form>
+					<div class="contact-form">
+					  	<h2>Contacta'ns</h2>
+						<?php $attributes = array("name" => "form_contact");
+						echo form_open("home/form_contact", $attributes);?>
+					  		
+						    	<div>
+							    	<span>Nom</span>
+							    	<input type="name" class="form-control" name="name" id="name" value="<?php echo set_value('name'); ?>"/>
+							    	<span class="text-danger"><?php echo form_error('name'); ?></span>
+							    </div>
+
+							    <div>
+							    	<span>Correu</span>
+							    	<input class="form-control" type="email" name="email" id="email" value="<?php echo set_value('email'); ?>" />
+		                    		<span class="text-danger"><?php echo form_error('email'); ?></span>
+							    </div>
+							    
+							    <div>
+							    	<span>Missatge</span>
+							    	<textarea class="form-control-contact" name="message">
+							    		<?php echo set_value('message'); ?>
+							    	</textarea>
+		                    		<span class="text-danger"><?php echo form_error('message'); ?></span>
+							    </div>
+							    
+							    <div>
+							   		<label class="fa-btn btn-1 btn-1e"><input type="submit" value="Enviar"></label>
+							    </div>
+
+						<?php echo form_close(); ?>
+	            		<?php echo $this->session->flashdata('msg'); ?>
 				    </div>
-  			</div>
+  				</div>
   			<div class="clearfix"></div>
 		</div>
 	</div>

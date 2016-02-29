@@ -4,7 +4,7 @@
 		  <div class="col-xs-14 col-sm-6 col-md-10">
 
 		  	<div class="col-md-4 images_1_of_4 bg1 text-center">
-				<h4><a href="">PREINSCRIPCIÓ CURS 2014/2015:</a></h4>
+				<h4><a href="">PREINSCRIPCIÓ CURS 2015/2016:</a></h4>
 				<p>
                   <p align="center"><b>Del 20 al 28 de juny</b></p>
 
@@ -39,7 +39,7 @@
 			</div>
 
 			<div class="col-md-4 images_1_of_4 bg1 text-center">
-				<h4><a href="">MATRÍCULA CURS 2014/2015:</a></h4>
+				<h4><a href="">MATRÍCULA CURS 2015/2016:</a></h4>
               	<p>
 
               		<p align="center"><b>Del 2 al 6 de setembre</b></p>
@@ -62,7 +62,7 @@
 				  </li>
 				  
 				  <li class="list-group-item">
-				  	<a target="_blank" href="http://www.iesebre.com/moodle">
+				  	<a target="_blank" href="http://agora.xtec.cat/afatortosa/moodle">
 				  		<img src="<?php echo base_url('assets/images/moodle.png'); ?>" height="40px">
 				  	</a>
 				  </li>
