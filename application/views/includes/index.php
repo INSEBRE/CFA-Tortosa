@@ -27,7 +27,7 @@
 			</div>
 
 		  	<div class="col-md-4 images_1_of_4 text-center">
-				<h4><a href="#">Proves lliures ESO</a></h4>
+				<h4><a href="">Proves lliures ESO</a></h4>
 
 				<p align="left">Per a l'obtenció del graduat en ESO per majors de 18 anys</p>
 
@@ -79,7 +79,13 @@
 	            <ul class="list-group">
 				  <li class="list-group-item">
 				  	<a target="_bank" href="http://www20.gencat.cat/portal/site/ensenyament">
-				  		<img  src="<?php echo base_url('assets/images/departament.png'); ?>" height="30px">
+				  		<img src="<?php echo base_url('assets/images/departament.png'); ?>" height="30px">
+				  	</a>
+				  </li>
+
+				  <li class="list-group-item">
+				  	<a target="_bank" href="http://ioc.xtec.cat/educacio/">
+				  		<img src="<?php echo base_url('assets/images/ioc_logo.png'); ?>" height="24px">
 				  	</a>
 				  </li>
 				  

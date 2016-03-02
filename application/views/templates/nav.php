@@ -56,7 +56,7 @@
 				        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url(''); ?>">Ensenyament  <b class="caret"></b></a>
 
 			            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-	                    	<li><a href="<?php echo base_url(''); ?>">Llengües extrangeres</a></li>
+	                    	<li><a href="<?php echo base_url('index.php/home/courses'); ?>">Llengües extrangeres</a></li>
 	                    	<li class="menu-item dropdown dropdown-submenu">
 
 			 					<a href="#" class="dropdown-toggle" data-toggle="dropdown-menu" href="<?php echo base_url(''); ?>">Proves d'Accés</a>
@@ -68,13 +68,13 @@
 									<li><a target="_blank" href="http://www.ceice.gva.es/eva/val/fp/pruacc.htm">Inscripció de les prova d'accés a Grau Mitjà a la Comunitat Valenciana</a></li>
 									<li><a target="_blank" href="http://www.ceice.gva.es/eva/val/fp/pruacc.htm">Inscripció de les prova d'accés a Grau Superior a la Comunitat Valenciana</a></li>
 								</ul>
-	                    	<li><a href="#">Català</a> </li>
-							<li><a href="#">Informàtica</a></li>
-	                    	<li><a href="#">GES</a></li>
+	                    	<li><a href="<?php echo base_url('index.php/home/courses'); ?>">Català</a> </li>
+							<li><a href="<?php echo base_url('index.php/home/courses'); ?>">Informàtica</a></li>
+	                    	<li><a href="<?php echo base_url('index.php/home/courses'); ?>">GES</a></li>
 							</li>
 	                	</ul>
 	                </li>
-			        <li><a href="#">Secretaria</a></li>
+			        <li><a href="<?php echo base_url('index.php/home/courses'); ?>">Secretaria</a></li>
 			        <li><a href="<?php echo base_url('index.php/home/teacher'); ?>">Professorat</a></li>
 
 			        <li class="dropdown">

@@ -12,8 +12,8 @@ class Home extends CI_Controller {
 			$this->load->view('templates/footer',$data);
 	}
 
-	public function secretary() {
-		$data['content']='includes/secretary';
+	public function courses() {
+		$data['content']='includes/courses';
 
 			$this->load->view('templates/header',$data);
 			$this->load->view('templates/nav',$data);
