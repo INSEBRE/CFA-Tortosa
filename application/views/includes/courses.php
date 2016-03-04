@@ -76,7 +76,7 @@
 						<p><a targer="_blank" href="http://ensenyament.gencat.cat/ca/serveis-tramits/proves/proves-acces/gm-fp/">Prova d'accés a grau mitjà</a> - <a href="http://ensenyament.gencat.cat/ca/serveis-tramits/proves/proves-acces/gs-fp/">Prova d'accés a grau superior</a></p>
 						<p><a targer="_blank" href="http://universitatsirecerca.gencat.cat/ca/03_ambits_dactuacio/acces_i_admissio_a_la_universitat/proves_dacces_per_a_mes_grans_de_25_anys/">PAU + 25 anys</a></p>
 						<p><a targer="_blank" href="http://www.cece.gva.es/eva/val/fp/pruacc.htm">Prova d'accès a la comunitat Valenciana</a></p>
-						<p><a target="_blank" href="">Horaris de proves d'accés</a></p>
+						<p><a target="_blank" href="<?php echo base_url('assets/files/PACCES_15-16.pdf'); ?>">Horaris de proves d'accés</a></p>
 					</div>
 				</div>
 
@@ -89,7 +89,7 @@
 
 						<p><a target="_blank" href="http://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=7&ved=0CEIQFjAGahUKEwiRlcuImN3HAhWHDxoKHZCzBr0&url=http%3A%2F%2Feducacio.gencat.net%2Fportal%2Fpls%2Fportal%2Fide_utils_pkg.download_fitxer%3Fp_file%3D62212826545625211%26p_cod_norma%3D6275&usg=AFQjCNFwyGmS7SAsLeMEmOeRYiRVG_HPBQ&bvm=bv.101800829,bs.1,d.d24">Taula de convalidacions</a></p>
 						<p><a target="_blank" href="http://queestudiar.gencat.cat/ca/estudis/formacio_persones_adultes/estudis/educacio_secundaria_per_a_les_persones_adultes/?p_id=280&estudi">Departament de Graduat en educació secundària </a></p>
-						<p><a target="_blank" href="<?php echo base_url('assets/files/GES_horaris_anual_15-16.pdf'); ?>"></a></p>
+						<p><a target="_blank" href="<?php echo base_url('assets/files/GES_horaris_anual_15-16.pdf'); ?>">Horaris GES</a></p>
 					</div>
 				</div>
 			</div>
