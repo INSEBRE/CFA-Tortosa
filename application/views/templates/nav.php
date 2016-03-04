@@ -94,7 +94,7 @@
 
 			<div class="soc_icons navbar-right">
 				<ul class="list-unstyled text-center">
-					<li><a href="#" title="644 43 68 30"><i class="fa fa-whatsapp"></i></a></li>
+					<li id="alert"><a href="#" title="644 43 68 30"><i class="fa fa-whatsapp"></i></a></li>
 					<li><a target="_blank" href="https://www.facebook.com/cfa.tortosa"><i class="fa fa-facebook"></i></a></li>
 					<li><a target="_blank" href="https://mail.google.com/"><i class="fa fa-google"></i></a></li>
 				</ul>
