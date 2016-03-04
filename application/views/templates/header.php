@@ -22,13 +22,13 @@
    	<link rel="stylesheet" href="<?php echo base_url('assets/fonts/css/font-awesome.min.css'); ?>">
    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+   	<link rel="stylesheet" href="<?php echo base_url('assests/css/sweetalert.css'); ?>">
 	
 	<!-- start plugins -->
 	<script src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>
 	<script src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+	<script src="<?php echo base_url('assests/js/sweetalert.min.js'); ?>"></script>
     
 	<script type="application/x-javascript"> 
 		addEventListener("load", function() { 
