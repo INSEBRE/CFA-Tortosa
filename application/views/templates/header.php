@@ -6,6 +6,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" href="<?php echo base_url('assets/images/favicon.ico'); ?>">
 	
 
 	 <!--[if lt IE 9]>
@@ -19,6 +21,7 @@
 
 	<!--font-Awesome-->
    	<link rel="stylesheet" href="<?php echo base_url('assets/fonts/css/font-awesome.min.css'); ?>">
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	
 	<!-- start plugins -->
 	<script src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>
