@@ -33,7 +33,7 @@
 
 				<p align="left">Termini d'inscripció telemàtica 1a convocatòria 2016: 8-13 de Gener</p>
 
-				<i align="center"><a href="http://www20.gencat.cat/portal/site/ensenyament/menuitem.046d33c25faf415a72623b10b0c0e1a0/?vgnextoid=456b154fffc06310VgnVCM2000009b0c1e0aRCRD&vgnextchannel=456b154fffc06310VgnVCM2000009b0c1e0aRCRD&vgnextfmt=default"><b>Inscripció telemàtica i informació</b></a></i>
+				<i align="center"><a href="http://ensenyament.gencat.cat/ca/serveis-tramits/proves/proves-lliures-obtencio-titols/obtencio-geso-mes-18-anys/"><b>Inscripció telemàtica i informació</b></a></i>
 				<!--<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>-->
 
 			</div>

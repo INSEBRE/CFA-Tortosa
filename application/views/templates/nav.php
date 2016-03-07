@@ -52,8 +52,12 @@
 			            </ul>
 			          </li>
 
+			        <li><a href="<?php echo base_url(''); ?>">Secretaria</a></li>
+			        <li><a href="<?php echo base_url('index.php/home/courses'); ?>">Ensenyaments</a></li>
+
+			        <!--
 			        <li class="dropdown">
-				        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url(''); ?>">Ensenyament  <b class="caret"></b></a>
+				        <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url('index.php/home/courses'); ?>">Ensenyaments  <b class="caret"></b></a>
 
 			            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 	                    	<li><a href="<?php echo base_url('index.php/home/courses'); ?>">Llengües extrangeres</a></li>
@@ -61,8 +65,8 @@
 
 			 					<a href="#" class="dropdown-toggle" data-toggle="dropdown-menu" href="<?php echo base_url(''); ?>">Proves d'Accés</a>
 								<ul class="dropdown-menu">
-									<li><a target="_blank" href="http://ensenyament.gencat.cat/ca/inici/">Normativa de les proves de Grau mitjà</a></li>
-									<li><a target="_blank" href="http://ensenyament.gencat.cat/ca/inici/">Normativa de les proves de Grau Superior</a></li>
+									<li><a target="_blank" href="http://ensenyament.gencat.cat/ca/serveis-tramits/proves/proves-acces/gm-fp/">Normativa de les proves de Grau mitjà</a></li>
+									<li><a target="_blank" href="http://ensenyament.gencat.cat/ca/serveis-tramits/proves/proves-acces/gs-fp/">Normativa de les proves de Grau Superior</a></li>
 									<li><a target="_blank" href="http://universitatsirecerca.gencat.cat/ca/03_ambits_dactuacio/acces_i_admissio_a_la_universitat/proves_dacces_per_a_mes_grans_de_25_anys/">Normativa de les proves de PAU + 25 i PAU + 45</a></li>
 									<div class="divider"></div>
 									<li><a target="_blank" href="http://www.ceice.gva.es/eva/val/fp/pruacc.htm">Inscripció de les prova d'accés a Grau Mitjà a la Comunitat Valenciana</a></li>
@@ -74,7 +78,7 @@
 							</li>
 	                	</ul>
 	                </li>
-			        <li><a href="<?php echo base_url('index.php/home/courses'); ?>">Secretaria</a></li>
+	                -->
 			        <li><a href="<?php echo base_url('index.php/home/teacher'); ?>">Professorat</a></li>
 
 			        <li class="dropdown">
