@@ -4,7 +4,7 @@
 		  <div class="col-xs-14 col-sm-6 col-md-10">
 
 		  	<div class="col-md-4 images_1_of_4 bg1 text-center">
-				<h4><a href="">PREINSCRIPCIÓ CURS 2015/2016:</a></h4>
+				<h4><a href="">PREINSCRIPCIÓ CURS 2016/2017:</a></h4>
 				<p>
                   <p align="center"><b>Del 20 al 28 de juny</b></p>
 
@@ -31,7 +31,7 @@
 
 				<p align="left">Per a l'obtenció del graduat en ESO per majors de 18 anys</p>
 
-				<p align="left">Termini d'inscripció telemàtica 1a convocatòria 2016: 8-13 de Gener</p>
+				<p align="left">Termini d'inscripció telemàtica 2a convocatòria 2016: 25 de Febrer al 2 de Març</p>
 
 				<i align="center"><a href="http://ensenyament.gencat.cat/ca/serveis-tramits/proves/proves-lliures-obtencio-titols/obtencio-geso-mes-18-anys/"><b>Inscripció telemàtica i informació</b></a></i>
 				<!--<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>-->
@@ -39,18 +39,26 @@
 			</div>
 
 			<div class="col-md-4 images_1_of_4 bg1 text-center">
-				<h4><a href="">MATRÍCULA CURS 2015/2016:</a></h4>
+				<h4><a href="">MATRÍCULA CURS 2016/2017:</a></h4>
               	<p>
 
-              		<p align="center"><b>Del 2 al 6 de setembre</b></p>
+              		<p align="center"><b>Del 6 al 9 de Setembre</b></p>
 
-                 	**Recordeu que tots els preinscrits, nous alumnes o antics cal que vingueu a confirmar la plaça.
+                 	**Recordeu que tots els preinscrits, nous alumnes o antics cal que vingueu a confirmar la plaça el 6 o el 7 de Setembre.
               	</p>
 				<!--<a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>-->
 			</div>
 		  </div>
 
 		  <div class="col-xs-4 col-md-2">
+
+				<ul class="list-group">
+				  <li class="list-group-item">
+				  	<a target="_blank" href="http://xtec.gencat.cat/ca/curriculum/educacioadults/fons-social-europeu/">
+				  		<img src="<?php echo base_url('assets/images/Unio_Europera_FSE.jpg'); ?>" height="34px">
+				  	</a>
+				  </li>
+				</ul>
 
 				<strong>Aplicacions Web</strong>
 	            <hr>
@@ -60,7 +68,7 @@
 				  		<img src="<?php echo base_url('assets/images/iesebre.png'); ?>" height="35px">
 				  	</a>
 				  </li>
-				  
+
 				  <li class="list-group-item">
 				  	<a target="_blank" href="http://agora.xtec.cat/afatortosa/moodle">
 				  		<img src="<?php echo base_url('assets/images/moodle.png'); ?>" height="30px">
@@ -88,13 +96,13 @@
 				  		<img src="<?php echo base_url('assets/images/ioc_logo.png'); ?>" height="24px">
 				  	</a>
 				  </li>
-				  
+
 				  <li class="list-group-item">
 				  	<a target="_bank" href="http://www.edu365.cat/">
 				  		<img src="<?php echo base_url('assets/images/edu365.png'); ?>" height="30px">
 				  	</a>
 				  </li>
-				  
+
 				  <li class="list-group-item">
 				  	<a target="_bank" href="http://www.xtec.cat/web/guest/home">
 				  		<img src="<?php echo base_url('assets/images/xtec.png'); ?>" height="30px">
